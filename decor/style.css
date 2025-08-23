@@ -648,7 +648,7 @@ footer {
 
 
 }
-.product-card h3 { margin: 10px 0; }
+.product-card h3 { margin: 10px 0; color: #121212;}
 .product-card .price {
   color: #444;
   font-weight: bold;
