@@ -175,17 +175,6 @@ renderCart();
 
 
 
-// Close cart when clicking outside
-document.addEventListener("click", function(e) {
-  if (cartOffcanvas.classList.contains("active")) {
-    // If click is outside cart and not on the cart icon
-    if (!cartOffcanvas.contains(e.target) && !cartIcon.contains(e.target)) {
-      closeCart();
-    }
-  }
-});
-
-
 
 
 

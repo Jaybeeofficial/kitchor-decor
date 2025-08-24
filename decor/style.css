@@ -61,6 +61,25 @@ header .top-bar {
 .logo {
   font-size: 22px;
   font-weight: bold;
+  margin-right: auto;
+}
+
+/* Desktop adjustments */
+
+@media (max-width: 768px) {
+  .navbar .logo img {
+    max-height: 40px; /* shrink logo a bit if needed */
+    margin-right: 15px; /* add spacing between logo & button */
+  }
+
+  .navbar .btn {
+    margin-left: 10px;  /* spacing from logo */
+    margin-right: 10px; /* spacing before menu button */
+  }
+
+  .navbar .menu-btn {
+    margin-left: 10px;  /* push menu button slightly right */
+  }
 }
 
 .nav-links {
@@ -86,6 +105,7 @@ header .top-bar {
   padding: 10px 18px;
   border-radius: 5px;
   text-decoration: none;
+  margin-left: 30px;
   
 }
 
