@@ -59,7 +59,7 @@ header .top-bar {
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: bold;
   
 }
@@ -311,6 +311,7 @@ header .top-bar {
 
   .menu-btn {
     display: block;
+    z-index: 1000;
   }
 
   .about {
@@ -322,10 +323,7 @@ header .top-bar {
     margin-top: 20px;
   }
 
-  .menu-btn {
-    display: block;
-    z-index: 1000; /* stays visible above menu */
-  }
+  
 }
 
 
